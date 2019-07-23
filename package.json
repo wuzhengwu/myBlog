@@ -1,0 +1,33 @@
+{
+  "name": "myBlog",
+  "version": "1.0.0",
+  "description": "My Nuxt.js Blog",
+  "author": "wuzhengwu",
+  "private": true,
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "4000"
+    }
+  },
+  "scripts": {
+    "dev": "nuxt",
+    "build": "cross-env BASE_URL=http://47.110.66.196:8989/ nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.3.6",
+    "cross-env": "^5.2.0",
+    "element-ui": "^2.10.1",
+    "nuxt": "^2.2.0",
+    "remarkable": "^1.7.1"
+  },
+  "devDependencies": {
+    "babel-plugin-component": "^1.1.1",
+    "jsonp": "^0.2.1",
+    "node-sass": "^4.10.0",
+    "nodemon": "^1.18.9",
+    "sass-loader": "^7.1.0"
+  }
+}
